@@ -13,6 +13,7 @@ public class araharacter : MonoBehaviour {
 
     private Rigidbody2D myRigidbody;
 
+
     public int Health
     {
         get
@@ -41,8 +42,10 @@ public class araharacter : MonoBehaviour {
 	// Update is called once per frame
 	private void Update () {
 		if (health <= 0){
-			SceneManager.LoadScene("GameOver");
-		}
+            // SceneManager.LoadScene("GameOver");
+            Debug.Log("GAME OVER!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
 		
 		myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
 

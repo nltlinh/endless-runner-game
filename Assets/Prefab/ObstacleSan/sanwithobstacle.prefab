@@ -69,10 +69,10 @@ GameObject:
   - component: {fileID: 4490559360529790}
   - component: {fileID: 212032438324381138}
   - component: {fileID: 61367315612612872}
-  - component: {fileID: 114742274845360366}
+  - component: {fileID: 114590876071271440}
   m_Layer: 0
   m_Name: sanwithobstacle
-  m_TagString: Untagged
+  m_TagString: ObstacleSan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,7 +201,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.124409676, y: 0.28150022}
@@ -217,7 +217,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.5722847, y: 1.5630004}
   m_EdgeRadius: 0
---- !u!114 &114742274845360366
+--- !u!114 &114590876071271440
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1669707889048466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f83eafc198347e4eb7333799fc72bd0, type: 3}
+  m_Script: {fileID: 11500000, guid: d4ae015671b70d34191bbdc4f037b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
