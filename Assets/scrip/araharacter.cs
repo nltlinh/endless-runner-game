@@ -43,7 +43,6 @@ public class araharacter : MonoBehaviour {
 	private void Update () {
 		if (health <= 0){
             // SceneManager.LoadScene("GameOver");
-            Debug.Log("GAME OVER!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 		

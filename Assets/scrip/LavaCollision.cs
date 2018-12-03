@@ -16,12 +16,11 @@ public class LavaCollision : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.name == "player"){
-			int health = player.getHealth();
-			
-			health -= damage;
-			Debug.Log(health);
-			Destroy(lava);
-		}
+		if (other.CompareTag("Player"))
+        {
+            other.GetComponent<araharacter>().health -= damage;
+            Debug.Log(other.GetComponent<araharacter>().health);
+            Destroy(gameObject);
+        }
 	}
 }
