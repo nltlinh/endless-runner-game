@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212378463653920682}
   - component: {fileID: 61359339085854898}
   - component: {fileID: 114705121747388242}
+  - component: {fileID: 114035491837208028}
   m_Layer: 0
   m_Name: san1
   m_TagString: NormalSan
@@ -67,6 +68,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114035491837208028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554313193380226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc1b70c71d25ac4f8d222ce30570e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnerDestroyPoint: {fileID: 0}
 --- !u!114 &114705121747388242
 MonoBehaviour:
   m_ObjectHideFlags: 1

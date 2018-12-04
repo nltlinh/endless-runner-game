@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212982810247963280}
   - component: {fileID: 61816809882411862}
   - component: {fileID: 114526958621280812}
+  - component: {fileID: 114825240254416462}
   m_Layer: 0
   m_Name: san2
   m_TagString: Untagged
@@ -79,6 +80,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+--- !u!114 &114825240254416462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026307285833380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc1b70c71d25ac4f8d222ce30570e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnerDestroyPoint: {fileID: 0}
 --- !u!212 &212982810247963280
 SpriteRenderer:
   m_ObjectHideFlags: 1
